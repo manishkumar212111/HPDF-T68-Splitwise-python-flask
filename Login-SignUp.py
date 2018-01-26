@@ -25,7 +25,7 @@ def signup():
 
 
     # This is the url to which the query is made
-    url = "https://auth.antipoverty56.hasura-app.io/v1/signup"
+    url = "https://auth.octagon58.hasura-app.io/v1/signup"
 
     # This is the json payload for the query
     requestPayload = {
@@ -48,7 +48,7 @@ def signup():
         print "user exists"
     else:
         # This is the url to which the query is made
-        url = "https://data.antipoverty56.hasura-app.io/v1/query"
+        url = "https://data.octagon58.hasura-app.io/v1/query"
 
         # This is the json payload for the query
         requestPayload = {
@@ -69,7 +69,7 @@ def signup():
         # Setting headers
         headers = {
             "Content-Type": "application/json",
-            "Authorization": "Bearer c8b3b2d8d33fd68c20ab6afa83028ad2806b241ea70d8fed"
+            "Authorization": "Bearer b660de1696fbdc8daa1d32d1d8f19bf03315ec407b9e2ebf"
         }
 
         # Make the query and store response in resp

@@ -12,7 +12,7 @@ def signup():
     js = json.loads(content)
 
     # This is the url to which the query is made
-    url = "https://auth.antipoverty56.hasura-app.io/v1/login"
+    url = "https://auth.octagon58.hasura-app.io/v1/login"
 
     # This is the json payload for the query
     requestPayload = {
